@@ -5,7 +5,6 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: process.env.VITE_BASE_PATH || "/E-commerce",
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
